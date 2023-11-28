@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028353, g: 0.22571383, b: 0.30692253, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4118,7 +4118,7 @@ GameObject:
   - component: {fileID: 1522833933}
   - component: {fileID: 1522833932}
   - component: {fileID: 1522833931}
-  - component: {fileID: 1522833930}
+  - component: {fileID: 1522833934}
   m_Layer: 6
   m_Name: Bot (1)
   m_TagString: Bot
@@ -4126,22 +4126,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1522833930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522833929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee002b37d0f038c46aa634306edf50df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1522833932}
-  moveSpeed: 0
-  anim: {fileID: 739700574}
-  characterWeaponType: 0
 --- !u!136 &1522833931
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4188,6 +4172,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522833934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522833929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949f669701d3f184ea9eab4911e58d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1522833932}
+  moveSpeed: 0
+  anim: {fileID: 739700574}
+  characterWeaponType: 0
 --- !u!1 &1526507080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5267,7 +5267,7 @@ GameObject:
   - component: {fileID: 2020127528}
   - component: {fileID: 2020127527}
   - component: {fileID: 2020127526}
-  - component: {fileID: 2020127525}
+  - component: {fileID: 2020127529}
   m_Layer: 6
   m_Name: Bot
   m_TagString: Bot
@@ -5275,22 +5275,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2020127525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020127524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee002b37d0f038c46aa634306edf50df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 2020127527}
-  moveSpeed: 0
-  anim: {fileID: 1604185786}
-  characterWeaponType: 0
 --- !u!136 &2020127526
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5337,6 +5321,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020127529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020127524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949f669701d3f184ea9eab4911e58d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2020127527}
+  moveSpeed: 0
+  anim: {fileID: 1604185786}
+  characterWeaponType: 0
 --- !u!1 &2030208169
 GameObject:
   m_ObjectHideFlags: 0
